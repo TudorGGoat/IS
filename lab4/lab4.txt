@@ -1,0 +1,17 @@
+lab4
+token nu se trece pe diagrama
+romb -> nod decizional, iese la da sau nu; if else
+nod merge 
+se retine primul token care ajunge la nodul final
+nod de paralelizare ->ca si becuri in paralel
+daca e paralel trebuie sa se indeplineasca ambele, nu doar una cum e la nod decizional
+bec-> nu e gata fluxul
+cu conector-> mai usor cu sagetile
+act apelare comportament
+partitionare -> fiecare actor ce face -> 2
+sageata fulger-> eroare
+bullet -> incepere activitate
+borna-> sfarsit activitate
+
+fara loop
+exceptiile sunt sub linia punctata

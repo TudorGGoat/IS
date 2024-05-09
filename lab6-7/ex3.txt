@@ -1,0 +1,20 @@
+class Persoana{
+	private String nume, adresa, cnp, nrTelefon;
+	private int varsta;
+
+	public Parinte[] parinti;
+	public Copil[] copii;
+}
+
+class Parinte extends Persoana{
+	private int nrCopii;
+	private String numePartener;
+
+	public Copil[] copii;
+}
+
+class Copil extends Persoana{
+	private String numeParinti;
+
+	public Parinte[] parinti;
+}

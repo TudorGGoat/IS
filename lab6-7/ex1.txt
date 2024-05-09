@@ -1,0 +1,37 @@
+class Student{
+	private String nume, adresa, nrTelefon, email;
+	private int IDstudent;
+	private float mediaNotelor;
+
+	public boolean esteEligibilInscriere(){}
+	public String[] getSeminariiAlese(){}
+
+	public Inscriere[] inscris;
+}
+
+class Inscriere{
+	private int notePrimite;
+	
+	public int getMediaLaZi(){}
+	public int getNotaFinala(){}
+}
+
+class Seminar{
+	private String nume;
+	private int IDseminar;
+	private float taxe;
+
+	public void addStudent(){}
+	public void dropStudent(){}
+
+	public Student[] studenti;
+	public Profesor profesor=Null;
+}
+
+class Profesor{
+	private String nume, adresa, nrTelefon, email;
+	private float salar;
+
+	public Seminar[] seminare;
+}
+
